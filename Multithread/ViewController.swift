@@ -18,9 +18,9 @@ class ViewController: UIViewController {
        Async.background {
             print("this is running on a background thread")
         
-            Async.main {
+        }.main {
             print("This is on the main thread")
-        }
+        
             
         }
         
